@@ -2,7 +2,7 @@ library(rix)
 
 path_default_nix <- getwd()
 
-rix(r_env = "latest",,
+rix(ver = "latest",,
     git_pkgs = list(
         list(package_name = "rix",
         repo_url = "https://github.com/b-rodrigues/rix",
@@ -14,7 +14,7 @@ rix(r_env = "latest",,
     system_pkgs = "quarto",
     tex_pkgs = c(
         "amsmath",
-        "orcidlink"
+        "orcidlink",
         "tcolorbox"
     ),
     ide = "other",
