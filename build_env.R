@@ -11,9 +11,13 @@ rix(r_ver = "latest",
     r_pkgs = c("quarto"),
     system_pkgs = "quarto",
     tex_pkgs = c(
-        "amsmath",
-        "orcidlink",
-        "tcolorbox"
+      "amsmath",
+      "environ",
+      "fontawesome5",
+      "orcidlink",
+      "pdfcol",
+      "tcolorbox",
+      "tikzfill"
     ),
     ide = "other",
     project_path = path_default_nix,
