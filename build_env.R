@@ -2,7 +2,7 @@ library(rix)
 
 path_default_nix <- getwd()
 
-rix(r_ver = "latest",,
+rix(r_ver = "latest",
     git_pkgs = list(
         list(package_name = "rix",
         repo_url = "https://github.com/b-rodrigues/rix",
